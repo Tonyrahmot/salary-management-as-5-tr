@@ -11,16 +11,19 @@
 </head>
 
 <body>
+    <!-- header part -->
     <header>
         <h1 class="font-semibold text-8xl text-center mt-16">Salary Management <br> <span
                 class="text-purple-600">Assignment-5 PH-tr</span></hl>
     </header>
-
+    <!-- main part of the doc  -->
     <main>
         <section class="grid gap-8 grid-cols-2 grid-rows-2 mt-16 mr-8">
+            <!-- image setup 1st -->
             <div class="border-2 flex justify-center">
                 <img src="/salary-management.jpg" alt="">
             </div>
+            <!-- slary table  -->
             <div class="border-2">
                 <h1 class="text-5xl text-center mt-4">Income</h1>
                 <h1 class="text-2xl border-2 text-center mt-8 bg-green-100">SALARY: <br> <input type="text" name=""
@@ -39,6 +42,7 @@
                                 <th>Amount</th>
                             </tr>
                         </thead>
+                        <!-- expenses  -->
                         <tbody class="text-left">
                             <tr>
                                 <td>Food</td>
@@ -61,20 +65,22 @@
                     </div>
                     <h1 class="border-4 flex justify-center">Total Expense: <span class="totalexpense">0</span>
                     </h1>
-                    <p class="error"></p>
 
+                    <p class="error"></p>
+                    <!-- Incme Balance  -->
                     <h1 class="border-4 flex justify-center font-bold">Balance: <span class="balance">0</span></h1>
 
                     <h1 class="border-4 flex justify-center">Savings% <input type="text" placeholder="00%"> <span>
-                            <button id="saved" class="bg-green-100">SAVE</button></span>
+                            <button class="bg-green-100">SAVE</button></span>
                     </h1>
-                    <h1 class="border-4 flex justify-center font-bold">Saved Amount: <input id="saved"> </h1>
-
-                    <h1 class="border-4 flex justify-center font-bold">Remaining Balance: <input id=""> </h1>
+                    <h1 class="border-4 flex justify-center font-bold">Saved Amount: <input> </h1>
+                    <!-- remaining balance  -->
+                    <h1 class="border-4 flex justify-center font-bold">Remaining Balance: <input> </h1>
 
                 </div>
             </div>
         </section>
+        <!-- script link  -->
         <script src="/js/salary.js"></script>
     </main>
 </body>
